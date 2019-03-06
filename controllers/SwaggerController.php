@@ -9,7 +9,8 @@ class SwaggerController extends Controller
     public function actions()
     {
         return [
-            'json' => 'tanghengzhi\swagger\actions\OpenApi'
+            'json' => 'tanghengzhi\swagger\actions\OpenApi',
+            'swagger-ui' => 'tanghengzhi\swagger\actions\SwaggerUI'
         ];
     }
 }

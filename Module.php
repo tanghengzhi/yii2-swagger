@@ -14,5 +14,5 @@ class Module extends \yii\base\Module
     /**
      * @inheritdoc
      */
-    public $defaultRoute = 'swagger/json';
+    public $defaultRoute = 'swagger/swagger-ui';
 }
